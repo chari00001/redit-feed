@@ -1,0 +1,224 @@
+{
+  "timestamp": "20250618_232631",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380458,
+      "total_likes": 54475,
+      "total_comments": 14566,
+      "total_shares": 4966,
+      "total_views": 306451,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.13929080963134766,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 221.05136659983478,
+      "max_recommendation_score": 465.63915952993085,
+      "min_recommendation_score": 43.486928325494155,
+      "std_recommendation_score": 146.1039376944797,
+      "total_recommendations_generated": 60
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3700,
+      "tag_enhancement_ratio": 4.272517321016166,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 1,
+          "keywords": [
+            "evde",
+            "eski",
+            "yapımı",
+            "var",
+            "anadolu",
+            "türkiye",
+            "sa",
+            "sürdürülebilir"
+          ],
+          "post_count": 129
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "yeni",
+            "çin",
+            "kitap",
+            "öğrenme",
+            "resim",
+            "çin uygun",
+            "başlayanlar",
+            "yeni başlayanlar"
+          ],
+          "post_count": 31
+        },
+        {
+          "topic_id": 3,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "eski",
+            "teknikleri",
+            "kültürü"
+          ],
+          "post_count": 24
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "sustainable",
+            "home",
+            "travel",
+            "your",
+            "how",
+            "environmental",
+            "ideas",
+            "technology"
+          ],
+          "post_count": 23
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "art",
+            "ai",
+            "exploring",
+            "future",
+            "science",
+            "new",
+            "future ai",
+            "development"
+          ],
+          "post_count": 21
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "post about",
+            "about",
+            "post",
+            "practices",
+            "explained",
+            "tech",
+            "mindfulness",
+            "weekly"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "techniques",
+            "guide",
+            "advanced",
+            "ethical",
+            "cybersecurity",
+            "ancient",
+            "deep",
+            "cognitive"
+          ],
+          "post_count": 14
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "tips",
+            "photography",
+            "photography tips",
+            "financial",
+            "new",
+            "capturing",
+            "guide",
+            "javascript"
+          ],
+          "post_count": 14
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "what",
+            "future",
+            "space",
+            "expect",
+            "what expect",
+            "space exploration",
+            "exploration",
+            "breakthroughs"
+          ],
+          "post_count": 12
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "yi",
+            "çin",
+            "geliştirme",
+            "çin yi",
+            "yazılım",
+            "hangi",
+            "yazılım geliştirme",
+            "geliştirme çin"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "kariyer",
+            "paylaşır mısınız",
+            "paylaşır",
+            "mısınız",
+            "deneyimlerinizi",
+            "deneyimlerinizi paylaşır",
+            "seçimi",
+            "yapay zeka"
+          ],
+          "post_count": 9
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "test",
+            "post",
+            "test post",
+            "from",
+            "image",
+            "resim"
+          ],
+          "post_count": 7
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

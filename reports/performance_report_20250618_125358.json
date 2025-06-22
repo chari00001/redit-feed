@@ -1,0 +1,226 @@
+{
+  "timestamp": "20250618_125358",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380406,
+      "total_likes": 54468,
+      "total_comments": 14557,
+      "total_shares": 4966,
+      "total_views": 306415,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.12789702415466309,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 0.08351523954865744,
+      "max_recommendation_score": 0.26614345578980947,
+      "min_recommendation_score": -0.1380199902935103,
+      "std_recommendation_score": 0.11522710811183358,
+      "total_recommendations_generated": 50
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3696,
+      "tag_enhancement_ratio": 4.267898383371825,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 3,
+          "keywords": [
+            "evde",
+            "nasıl",
+            "guide",
+            "yapımı",
+            "yapmak",
+            "ipuçları",
+            "var",
+            "kitap"
+          ],
+          "post_count": 132
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "post",
+            "test",
+            "post about",
+            "about",
+            "test post",
+            "weekly",
+            "indie",
+            "films"
+          ],
+          "post_count": 22
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "ai",
+            "future",
+            "exploring",
+            "trends",
+            "reality",
+            "space",
+            "future ai",
+            "matter"
+          ],
+          "post_count": 22
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "müziğinde"
+          ],
+          "post_count": 20
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "sustainable",
+            "home",
+            "travel",
+            "your",
+            "blockchain",
+            "environmental",
+            "ideas",
+            "how"
+          ],
+          "post_count": 20
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "çin",
+            "türkiye",
+            "deki",
+            "türkiye deki",
+            "türleri",
+            "çin yi",
+            "yi",
+            "geliştirme"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "yeni",
+            "sanat",
+            "resim",
+            "etkisi",
+            "yaratıcı",
+            "kültürel",
+            "yeni resim",
+            "sanatın"
+          ],
+          "post_count": 18
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "tips",
+            "photography",
+            "photography tips",
+            "javascript",
+            "js",
+            "financial",
+            "new",
+            "capturing"
+          ],
+          "post_count": 16
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "science",
+            "deep",
+            "art",
+            "techniques",
+            "dreams",
+            "strategies",
+            "different",
+            "advanced"
+          ],
+          "post_count": 15
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "my",
+            "what",
+            "art",
+            "productivity",
+            "my latest",
+            "fitness",
+            "latest",
+            "diy"
+          ],
+          "post_count": 14
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "eski",
+            "türklerde",
+            "eski türklerde",
+            "yolculuk",
+            "el",
+            "eski türk",
+            "dolu",
+            "dolu yolculuk"
+          ],
+          "post_count": 10
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "food",
+            "today",
+            "workout",
+            "healthy",
+            "healthier",
+            "relationship",
+            "science",
+            "farming"
+          ],
+          "post_count": 6
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

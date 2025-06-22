@@ -1,0 +1,224 @@
+{
+  "timestamp": "20250619_003105",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380489,
+      "total_likes": 54485,
+      "total_comments": 14573,
+      "total_shares": 4966,
+      "total_views": 306465,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.12431192398071289,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 221.13801981475024,
+      "max_recommendation_score": 480.31936528311655,
+      "min_recommendation_score": 32.245013647313165,
+      "std_recommendation_score": 139.99546736266453,
+      "total_recommendations_generated": 60
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3680,
+      "tag_enhancement_ratio": 4.249422632794457,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 3,
+          "keywords": [
+            "exploring",
+            "guide",
+            "science",
+            "techniques",
+            "sustainable",
+            "food",
+            "sa",
+            "advanced"
+          ],
+          "post_count": 129
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "tips",
+            "photography",
+            "my",
+            "photography tips",
+            "healthy",
+            "productivity",
+            "travel",
+            "living"
+          ],
+          "post_count": 26
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "future",
+            "ai",
+            "latest",
+            "trends",
+            "art",
+            "quantum",
+            "robotics",
+            "breakthroughs"
+          ],
+          "post_count": 25
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "yeni",
+            "kitap",
+            "öğrenme",
+            "resim",
+            "üzerine",
+            "öğrenmeye",
+            "dijital",
+            "yeni başlayanlar"
+          ],
+          "post_count": 23
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "eski türk"
+          ],
+          "post_count": 20
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "about",
+            "post about",
+            "post",
+            "news",
+            "weekly",
+            "indie",
+            "challenge",
+            "thoughts"
+          ],
+          "post_count": 17
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "evde",
+            "yapımı",
+            "sanatı",
+            "lezzetli",
+            "puçları",
+            "evde yapabileceğiniz",
+            "yapabileceğiniz",
+            "önerileri"
+          ],
+          "post_count": 17
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "çin",
+            "yi",
+            "çin yi",
+            "uygun",
+            "yaparken",
+            "çin uygun",
+            "hangi",
+            "geliştiriciler çin"
+          ],
+          "post_count": 16
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "eski",
+            "yöntemleri",
+            "türklerde",
+            "eski türklerde",
+            "sürdürülebilir",
+            "el",
+            "mücadele",
+            "uygulamaları"
+          ],
+          "post_count": 13
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "kariyer",
+            "mısınız",
+            "paylaşır",
+            "paylaşır mısınız",
+            "deneyimlerinizi",
+            "deneyimlerinizi paylaşır",
+            "yapmak",
+            "seçimi"
+          ],
+          "post_count": 13
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "türkiye",
+            "deki",
+            "türkiye deki",
+            "halk",
+            "türk halk",
+            "nin",
+            "türkiye nin",
+            "doğa"
+          ],
+          "post_count": 8
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "test",
+            "post",
+            "test post",
+            "from",
+            "image",
+            "resim"
+          ],
+          "post_count": 7
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

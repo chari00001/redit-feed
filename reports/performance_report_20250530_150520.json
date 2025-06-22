@@ -1,0 +1,159 @@
+{
+  "timestamp": "20250530_150520",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 114,
+      "posts_with_content": 113,
+      "posts_with_tags": 113,
+      "posts_with_title": 114,
+      "content_coverage": 99.12280701754386,
+      "tag_coverage": 99.12280701754386,
+      "title_coverage": 100.0,
+      "total_interactions": 97989,
+      "total_likes": 11348,
+      "total_comments": 1971,
+      "total_shares": 615,
+      "total_views": 84055,
+      "unique_tags": 196,
+      "avg_tags_per_post": 2.3596491228070176,
+      "total_tags_used": 269
+    },
+    "training_time": 0.08478903770446777,
+    "feature_dimensions": [
+      114,
+      296
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 0.3337871356111334,
+      "max_recommendation_score": 0.4300182291666667,
+      "min_recommendation_score": 0.25621347150259066,
+      "std_recommendation_score": 0.045503442957257625,
+      "total_recommendations_generated": 50
+    },
+    "tag_analysis": {
+      "original_total_tags": 269,
+      "enhanced_total_tags": 1078,
+      "tag_enhancement_ratio": 4.007434944237918,
+      "posts_with_enhanced_tags": 114,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 3,
+          "keywords": [
+            "türk",
+            "haftalık",
+            "evde",
+            "setup",
+            "yeni",
+            "sessiz",
+            "next",
+            "paylaşmak"
+          ],
+          "post_count": 49
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "about",
+            "post about",
+            "post",
+            "weekly",
+            "indie",
+            "how",
+            "tips",
+            "explained"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "paylaşır",
+            "paylaşır mısınız",
+            "mısınız",
+            "yapay",
+            "deneyimlerinizi",
+            "deneyimlerinizi paylaşır",
+            "kariyer",
+            "hakkında"
+          ],
+          "post_count": 12
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "yi",
+            "çin",
+            "çin yi",
+            "iyi",
+            "pratikleri",
+            "yazılım",
+            "hangi",
+            "hakkında"
+          ],
+          "post_count": 9
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "çin",
+            "uygun",
+            "çin uygun",
+            "hangi",
+            "geliştiriciler çin",
+            "geliştiriciler",
+            "yeni",
+            "kaynakları"
+          ],
+          "post_count": 9
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "test",
+            "post",
+            "test post",
+            "resim"
+          ],
+          "post_count": 7
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "nasıl",
+            "yaparken",
+            "var",
+            "evde",
+            "elde",
+            "sabitleme",
+            "önerisi",
+            "neye"
+          ],
+          "post_count": 7
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "sa"
+          ],
+          "post_count": 2
+        }
+      ],
+      "total_topics": 8,
+      "total_posts_analyzed": 114
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 114,
+    "feature_matrix_shape": [
+      114,
+      296
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

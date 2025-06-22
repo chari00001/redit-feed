@@ -1,0 +1,226 @@
+{
+  "timestamp": "20250619_002947",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380480,
+      "total_likes": 54479,
+      "total_comments": 14572,
+      "total_shares": 4966,
+      "total_views": 306463,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.12100505828857422,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 225.58979085352368,
+      "max_recommendation_score": 474.78754699257155,
+      "min_recommendation_score": 62.34200091933406,
+      "std_recommendation_score": 145.64926632537356,
+      "total_recommendations_generated": 60
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3687,
+      "tag_enhancement_ratio": 4.257505773672055,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 11,
+          "keywords": [
+            "yeni",
+            "evde",
+            "yapımı",
+            "anadolu",
+            "kitap",
+            "sanat",
+            "sa",
+            "son"
+          ],
+          "post_count": 127
+        },
+        {
+          "topic_id": 3,
+          "keywords": [
+            "future",
+            "sustainable",
+            "food",
+            "technology",
+            "blockchain",
+            "robotics",
+            "breakthroughs",
+            "space"
+          ],
+          "post_count": 24
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "my",
+            "tech",
+            "new",
+            "book",
+            "fitness",
+            "productivity",
+            "review",
+            "gaming"
+          ],
+          "post_count": 24
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "post",
+            "test",
+            "post about",
+            "about",
+            "test post",
+            "indie",
+            "tips",
+            "films"
+          ],
+          "post_count": 22
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "nasıl",
+            "yaşam",
+            "türkiye",
+            "gelecek",
+            "deki",
+            "türkiye deki",
+            "sürdürülebilir",
+            "hayvan"
+          ],
+          "post_count": 22
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "art",
+            "science",
+            "techniques",
+            "deep",
+            "exploring",
+            "dreams",
+            "into",
+            "advanced"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "müziğinde"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "mısınız",
+            "yapmak",
+            "paylaşır mısınız",
+            "paylaşır",
+            "elde",
+            "kullanarak",
+            "deneyimlerinizi",
+            "deneyimlerinizi paylaşır"
+          ],
+          "post_count": 15
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "çin",
+            "çin yi",
+            "yi",
+            "hangi",
+            "çin uygun",
+            "uygun",
+            "geliştiriciler çin",
+            "geliştiriciler"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "eski",
+            "türk",
+            "türklerde",
+            "eski türklerde",
+            "eski türk",
+            "mitolojisinde",
+            "türk mitolojisinde",
+            "yolculuk"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "travel",
+            "photography",
+            "tips",
+            "photography tips",
+            "next",
+            "environmental",
+            "big",
+            "capturing"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "guide",
+            "growing",
+            "home",
+            "harvesting",
+            "tips",
+            "techniques",
+            "step",
+            "meditation"
+          ],
+          "post_count": 9
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

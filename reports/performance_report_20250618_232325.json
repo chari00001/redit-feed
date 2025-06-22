@@ -1,0 +1,223 @@
+{
+  "timestamp": "20250618_232325",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380456,
+      "total_likes": 54475,
+      "total_comments": 14566,
+      "total_shares": 4966,
+      "total_views": 306449,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.11538290977478027,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 206.5606521446426,
+      "max_recommendation_score": 460.3561613287,
+      "min_recommendation_score": 15.544389592542005,
+      "std_recommendation_score": 149.54100538996443,
+      "total_recommendations_generated": 60
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3699,
+      "tag_enhancement_ratio": 4.271362586605081,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 2,
+          "keywords": [
+            "yeni",
+            "art",
+            "guide",
+            "exploring",
+            "techniques",
+            "science",
+            "food",
+            "what"
+          ],
+          "post_count": 152
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "post",
+            "post about",
+            "about",
+            "explained",
+            "tech",
+            "mindfulness",
+            "practices",
+            "weekly"
+          ],
+          "post_count": 21
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "tips",
+            "photography",
+            "how",
+            "photography tips",
+            "travel",
+            "robotics",
+            "your",
+            "sleep"
+          ],
+          "post_count": 21
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "müziğinde"
+          ],
+          "post_count": 20
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "evde",
+            "var",
+            "yapımı",
+            "kültürü",
+            "nasıl",
+            "yaşam",
+            "sabitleme",
+            "sabun"
+          ],
+          "post_count": 17
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "çin",
+            "yi",
+            "geliştirme",
+            "çin yi",
+            "hangi",
+            "yazılım",
+            "çin uygun",
+            "geliştiriciler"
+          ],
+          "post_count": 16
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "ai",
+            "ethical",
+            "sustainable",
+            "future",
+            "development",
+            "future ai",
+            "ethical ai",
+            "intelligence"
+          ],
+          "post_count": 15
+        },
+        {
+          "topic_id": 3,
+          "keywords": [
+            "yapmak",
+            "kariyer",
+            "mısınız",
+            "paylaşır mısınız",
+            "paylaşır",
+            "deneyimlerinizi paylaşır",
+            "deneyimlerinizi",
+            "kullanarak"
+          ],
+          "post_count": 14
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "next",
+            "here",
+            "travel",
+            "my",
+            "tips",
+            "what",
+            "js",
+            "plans"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "eski",
+            "türk",
+            "türklerde",
+            "eski türklerde",
+            "eski türk",
+            "mitolojisinde",
+            "türk mitolojisinde",
+            "yolculuk"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "üzerindeki",
+            "etkisi",
+            "nasıl",
+            "üzerindeki etkisi",
+            "sağlığı",
+            "sanat",
+            "otomasyonu",
+            "hayvan"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "test",
+            "test post",
+            "post",
+            "image",
+            "resim"
+          ],
+          "post_count": 5
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "timestamp": "20250618_225009",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 314,
+      "posts_with_content": 313,
+      "posts_with_tags": 313,
+      "posts_with_title": 314,
+      "content_coverage": 99.68152866242038,
+      "tag_coverage": 99.68152866242038,
+      "title_coverage": 100.0,
+      "total_interactions": 380442,
+      "total_likes": 54472,
+      "total_comments": 14565,
+      "total_shares": 4966,
+      "total_views": 306439,
+      "unique_tags": 546,
+      "avg_tags_per_post": 2.7579617834394905,
+      "total_tags_used": 866
+    },
+    "training_time": 0.11964011192321777,
+    "feature_dimensions": [
+      314,
+      918
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 246.23893864002142,
+      "max_recommendation_score": 487.04538457276567,
+      "min_recommendation_score": 78.44370633513266,
+      "std_recommendation_score": 144.80344246800706,
+      "total_recommendations_generated": 50
+    },
+    "tag_analysis": {
+      "original_total_tags": 866,
+      "enhanced_total_tags": 3714,
+      "tag_enhancement_ratio": 4.288683602771362,
+      "posts_with_enhanced_tags": 314,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 2,
+          "keywords": [
+            "evde",
+            "yeni",
+            "guide",
+            "yapımı",
+            "future",
+            "anadolu",
+            "türkiye",
+            "kitap"
+          ],
+          "post_count": 153
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "tips",
+            "photography",
+            "travel",
+            "photography tips",
+            "blockchain",
+            "javascript",
+            "how",
+            "js"
+          ],
+          "post_count": 24
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "çin",
+            "geliştirme",
+            "paylaşır mısınız",
+            "paylaşır",
+            "mısınız",
+            "çin yi",
+            "hangi",
+            "yi"
+          ],
+          "post_count": 22
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "müziğinde"
+          ],
+          "post_count": 19
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "post",
+            "post about",
+            "about",
+            "mindfulness",
+            "productivity",
+            "practices",
+            "weekly",
+            "indie"
+          ],
+          "post_count": 18
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "art",
+            "ai",
+            "future",
+            "future ai",
+            "development",
+            "techniques",
+            "new",
+            "ethical ai"
+          ],
+          "post_count": 16
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "exploring",
+            "ancient",
+            "food",
+            "today",
+            "science",
+            "matter",
+            "history",
+            "workout"
+          ],
+          "post_count": 15
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "nasıl",
+            "üzerindeki",
+            "etkisi",
+            "üzerindeki etkisi",
+            "sağlığı",
+            "sanat",
+            "otomasyonu",
+            "hayvan"
+          ],
+          "post_count": 14
+        },
+        {
+          "topic_id": 6,
+          "keywords": [
+            "eski",
+            "türk",
+            "türklerde",
+            "eski türklerde",
+            "eski türk",
+            "mitolojisinde",
+            "türk mitolojisinde",
+            "yolculuk"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "what",
+            "my",
+            "expect",
+            "what expect",
+            "fitness",
+            "space",
+            "productivity",
+            "diy"
+          ],
+          "post_count": 11
+        },
+        {
+          "topic_id": 3,
+          "keywords": [
+            "health",
+            "mental",
+            "role",
+            "science",
+            "mental health",
+            "awareness",
+            "health awareness",
+            "cognitive"
+          ],
+          "post_count": 6
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "test",
+            "test post",
+            "post",
+            "image",
+            "resim"
+          ],
+          "post_count": 5
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 314
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 314,
+    "feature_matrix_shape": [
+      314,
+      918
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

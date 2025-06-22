@@ -1,0 +1,226 @@
+{
+  "timestamp": "20250619_011350",
+  "training_stats": {
+    "data_quality": {
+      "total_posts": 772,
+      "posts_with_content": 771,
+      "posts_with_tags": 771,
+      "posts_with_title": 772,
+      "content_coverage": 99.87046632124353,
+      "tag_coverage": 99.87046632124353,
+      "title_coverage": 100.0,
+      "total_interactions": 10115350,
+      "total_likes": 283646,
+      "total_comments": 68591,
+      "total_shares": 45798,
+      "total_views": 9717315,
+      "unique_tags": 1382,
+      "avg_tags_per_post": 3.598445595854922,
+      "total_tags_used": 2778
+    },
+    "training_time": 0.17930102348327637,
+    "feature_dimensions": [
+      772,
+      1990
+    ]
+  },
+  "performance_metrics": {
+    "recommendation_quality": {
+      "avg_recommendation_score": 1819.5310790137632,
+      "max_recommendation_score": 6133.182936197996,
+      "min_recommendation_score": 63.13557270456738,
+      "std_recommendation_score": 2264.620332471299,
+      "total_recommendations_generated": 60
+    },
+    "tag_analysis": {
+      "original_total_tags": 2778,
+      "enhanced_total_tags": 10756,
+      "tag_enhancement_ratio": 3.8718502519798417,
+      "posts_with_enhanced_tags": 772,
+      "enhancement_coverage": 100.0
+    },
+    "topic_analysis": {
+      "topics": [
+        {
+          "topic_id": 6,
+          "keywords": [
+            "post",
+            "sanatı",
+            "faydaları",
+            "tips",
+            "felsefesi",
+            "eski",
+            "yolları",
+            "test"
+          ],
+          "post_count": 354
+        },
+        {
+          "topic_id": 1,
+          "keywords": [
+            "nasıl",
+            "temel",
+            "temelleri",
+            "giriş",
+            "başlangıç",
+            "doğru",
+            "sanatı",
+            "teknikleri"
+          ],
+          "post_count": 127
+        },
+        {
+          "topic_id": 8,
+          "keywords": [
+            "etkisi",
+            "tarihi",
+            "kültürel",
+            "gücü",
+            "evrimi",
+            "üzerindeki",
+            "neden",
+            "osmanlı"
+          ],
+          "post_count": 41
+        },
+        {
+          "topic_id": 11,
+          "keywords": [
+            "çin",
+            "puçları",
+            "yi",
+            "pratik",
+            "çin yi",
+            "adım",
+            "yaşam",
+            "hangi"
+          ],
+          "post_count": 37
+        },
+        {
+          "topic_id": 4,
+          "keywords": [
+            "future",
+            "ai",
+            "how",
+            "new",
+            "tips",
+            "space",
+            "breakthroughs",
+            "trends"
+          ],
+          "post_count": 35
+        },
+        {
+          "topic_id": 2,
+          "keywords": [
+            "antik",
+            "türkiye",
+            "anadolu",
+            "son",
+            "türkiye deki",
+            "deki",
+            "roma",
+            "nun"
+          ],
+          "post_count": 31
+        },
+        {
+          "topic_id": 3,
+          "keywords": [
+            "nedir",
+            "blockchain",
+            "teknolojisi",
+            "merkeziyetsiz",
+            "kuantum",
+            "düşünce",
+            "supply",
+            "blockchain teknolojisi"
+          ],
+          "post_count": 30
+        },
+        {
+          "topic_id": 9,
+          "keywords": [
+            "yapımı",
+            "evde",
+            "tarifi",
+            "mükemmel",
+            "yapabileceğiniz",
+            "adım",
+            "hem",
+            "lezzetli"
+          ],
+          "post_count": 29
+        },
+        {
+          "topic_id": 5,
+          "keywords": [
+            "türk",
+            "geleneksel",
+            "geleneksel türk",
+            "türk kahvesi",
+            "kahvesi",
+            "teknikleri",
+            "anlamları",
+            "okçuluk"
+          ],
+          "post_count": 26
+        },
+        {
+          "topic_id": 0,
+          "keywords": [
+            "science",
+            "exploring",
+            "techniques",
+            "art",
+            "ancient",
+            "deep",
+            "dreams",
+            "role"
+          ],
+          "post_count": 23
+        },
+        {
+          "topic_id": 10,
+          "keywords": [
+            "psikolojisi",
+            "neden",
+            "stratejileri",
+            "başa",
+            "çıkma",
+            "başa çıkma",
+            "olduğu",
+            "sendromu"
+          ],
+          "post_count": 21
+        },
+        {
+          "topic_id": 7,
+          "keywords": [
+            "yapay",
+            "yapay zeka",
+            "zeka",
+            "yapay zekanın",
+            "zekanın",
+            "nasıl",
+            "sanat",
+            "öğrenme"
+          ],
+          "post_count": 18
+        }
+      ],
+      "total_topics": 12,
+      "total_posts_analyzed": 772
+    }
+  },
+  "model_info": {
+    "total_posts_trained": 772,
+    "feature_matrix_shape": [
+      772,
+      1990
+    ],
+    "content_analysis_enabled": true,
+    "model_type": "EnhancedRecommender with SmartContentAnalyzer"
+  }
+}

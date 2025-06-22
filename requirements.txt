@@ -5,3 +5,10 @@ databases
 python-dotenv
 pydantic
 sqlalchemy 
+scikit-learn
+numpy
+pandas
+joblib
+schedule
+gradio
+requests 
